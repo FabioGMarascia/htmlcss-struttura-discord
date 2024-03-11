@@ -6,19 +6,17 @@
 
 header {
   background-color: aquamarine;
-
   padding-top: 10px;
 }
 
-.flex-nav {
-  display: flex;
+nav {
   background-color: goldenrod;
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
 }
 
-.flex-nav > .small-column {
+.small-column {
   border: 2px dashed black;
   width: calc(30% / 2);
   padding: 0.5rem;
@@ -28,15 +26,14 @@ header {
   text-align: right;
 }
 
-.flex-nav > .big-column {
+.big-column {
   padding: 0.5rem;
   border: 2px dashed black;
   width: 70%;
   text-align: center;
 }
 
-.flex-big-logo {
-  display: flex;
+.big-logo-container {
   justify-content: center;
   align-items: center;
   background-color: blue;
@@ -49,4 +46,48 @@ header {
   border: 2px dashed black;
   width: 60%;
   height: 80%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.column-container {
+  justify-content: center;
+  align-items: center;
+  min-height: 35rem;
+}
+
+.blue-column {
+  background-color: rgb(0, 89, 255);
+  width: 40%;
+  min-height: 29rem;
+  border: 2px dashed black;
+}
+
+.pink-column {
+  background-color: pink;
+  width: 30%;
+  min-height: 29rem;
+  border: 2px dashed black;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.box-container {
+  justify-content: center;
+  align-items: center;
+  min-height: 50rem;
+}
+
+.green-box {
+  background-color: green;
+  width: 70%;
+  min-height: 44rem;
+  border: 2px dashed black;
+}
+.black {
+  background-color: #222;
 }
