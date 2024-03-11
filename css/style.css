@@ -4,8 +4,49 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 1rem;
-  background-color: #222;
-  color: white;
+header {
+  background-color: aquamarine;
+
+  padding-top: 10px;
+}
+
+.flex-nav {
+  display: flex;
+  background-color: goldenrod;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.flex-nav > .small-column {
+  border: 2px dashed black;
+  width: calc(30% / 2);
+  padding: 0.5rem;
+}
+
+.right-column {
+  text-align: right;
+}
+
+.flex-nav > .big-column {
+  padding: 0.5rem;
+  border: 2px dashed black;
+  width: 70%;
+  text-align: center;
+}
+
+.flex-big-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  margin-top: 10px;
+  height: 30rem;
+}
+
+.big-logo {
+  background-color: fuchsia;
+  border: 2px dashed black;
+  width: 60%;
+  height: 80%;
 }
