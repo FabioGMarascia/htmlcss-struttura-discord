@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.border {
+  border: 2px dashed black;
+}
+
+/* HEADER */
 header {
   background-color: aquamarine;
   padding-top: 10px;
@@ -17,8 +26,7 @@ nav {
 }
 
 .small-column {
-  border: 2px dashed black;
-  width: calc(30% / 2);
+  width: 15%;
   padding: 0.5rem;
 }
 
@@ -28,7 +36,6 @@ nav {
 
 .big-column {
   padding: 0.5rem;
-  border: 2px dashed black;
   width: 70%;
   text-align: center;
 }
@@ -43,15 +50,11 @@ nav {
 
 .big-logo {
   background-color: fuchsia;
-  border: 2px dashed black;
   width: 60%;
   height: 80%;
 }
 
-.flex-container {
-  display: flex;
-}
-
+/* MAIN */
 .column-container {
   justify-content: center;
   align-items: center;
@@ -62,14 +65,12 @@ nav {
   background-color: rgb(0, 89, 255);
   width: 40%;
   min-height: 29rem;
-  border: 2px dashed black;
 }
 
 .pink-column {
   background-color: pink;
   width: 30%;
   min-height: 29rem;
-  border: 2px dashed black;
 }
 
 .gray {
@@ -86,8 +87,9 @@ nav {
   background-color: green;
   width: 70%;
   min-height: 44rem;
-  border: 2px dashed black;
 }
+
+/* FOOTER */
 .black {
   background-color: #222;
 }
@@ -96,15 +98,14 @@ nav {
   width: 23%;
   min-height: 33rem;
   background-color: crimson;
-  border: 2px dashed black;
 }
 
 .green-column {
   width: 47%;
   min-height: 33rem;
   background-color: aqua;
-  border: 2px dashed black;
 }
+
 .small-green-column {
   width: calc(100% / 4);
   border: 2px dashed white;
@@ -129,7 +130,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .footer-line {
   background-color: coral;
-  border: 2px dashed black;
 }
