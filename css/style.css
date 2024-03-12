@@ -15,17 +15,17 @@
 /* HEADER */
 header {
   background-color: aquamarine;
-  padding-top: 10px;
 }
 
 nav {
-  background-color: goldenrod;
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
+  padding: 0.5rem;
 }
 
 .small-column {
+  background-color: goldenrod;
   width: 15%;
   padding: 0.5rem;
 }
@@ -35,6 +35,7 @@ nav {
 }
 
 .big-column {
+  background-color: goldenrod;
   padding: 0.5rem;
   width: 70%;
   text-align: center;
@@ -42,7 +43,6 @@ nav {
 
 .big-logo-container {
   background-color: blue;
-  margin-top: 10px;
 }
 
 .big-logo {
