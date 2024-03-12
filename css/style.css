@@ -121,6 +121,7 @@ nav {
   justify-content: center;
   align-items: flex-end;
   min-height: 4rem;
+  border-bottom: 1px solid white;
 }
 
 .aquamarine-box {
