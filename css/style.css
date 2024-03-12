@@ -45,20 +45,20 @@ nav {
   align-items: center;
   background-color: blue;
   margin-top: 10px;
-  height: 30rem;
+  padding: 3rem 0;
 }
 
 .big-logo {
   background-color: fuchsia;
   width: 60%;
-  height: 80%;
+  min-height: 25rem;
 }
 
 /* MAIN */
 .column-container {
   justify-content: center;
   align-items: center;
-  min-height: 35rem;
+  padding: 3rem 0;
 }
 
 .blue-column {
@@ -80,7 +80,7 @@ nav {
 .box-container {
   justify-content: center;
   align-items: center;
-  min-height: 50rem;
+  padding: 3rem 0;
 }
 
 .green-box {
@@ -92,6 +92,11 @@ nav {
 /* FOOTER */
 .black {
   background-color: #222;
+}
+
+.first-footer-container {
+  justify-content: center;
+  padding: 1rem 0 3rem 0;
 }
 
 .crimson-column {
@@ -109,12 +114,6 @@ nav {
 .small-green-column {
   width: calc(100% / 4);
   border: 2px dashed white;
-}
-
-.first-footer-container {
-  justify-content: center;
-  padding: 1rem 0 3rem 0;
-  min-height: 35rem;
 }
 
 .second-footer-container {
